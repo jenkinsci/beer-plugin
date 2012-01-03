@@ -1,0 +1,8 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <l:layout title="${%Beer}">
+    <l:main-panel>
+      <h1>${it.quote}? Have some beer</h1>
+      <img src="${rootURL}/plugin/beer/${it.image}" />
+    </l:main-panel>
+  </l:layout>
+</j:jelly>
