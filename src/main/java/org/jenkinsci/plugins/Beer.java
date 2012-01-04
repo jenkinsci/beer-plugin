@@ -36,7 +36,9 @@ public class Beer implements UnprotectedRootAction {
             "Having RVM problem",
             "Maven is downloading the internet",
             "Bundler is fetching the RubyGems index",
-            "Jenkins is restarting"
+            "Jenkins is restarting",
+            "Code is compiling",
+            "It's 5 o'clock somewhere"
     };
 
     private final String[] IMAGES = {
