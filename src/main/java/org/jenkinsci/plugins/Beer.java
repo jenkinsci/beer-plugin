@@ -38,12 +38,18 @@ public class Beer implements UnprotectedRootAction {
             "Bundler is fetching the RubyGems index",
             "Jenkins is restarting",
             "Code is compiling",
-            "It's 5 o'clock somewhere"
+            "It's 5 o'clock somewhere",
+            "Launching Eclipse",
+            "Firing up Emacs",
+            "Compiling OpenOffice from source"
     };
 
     private final String[] IMAGES = {
             "beer.gif",
             "bigbeer.jpg",
-            "man.jpg"
+            "man.jpg",
+            "starwars-beer.gif",
+            "drinking-beer.gif",
+            "pouring-beer.gif"
     };
 }
