@@ -2,7 +2,7 @@
   <l:layout title="${%Beer}">
     <l:main-panel>
       <h1>${it.quote}? Have some beer</h1>
-      <img src="${rootURL}/plugin/beer/${it.image}" />
+      <img src="${resURL}/plugin/beer/${it.image}" />
     </l:main-panel>
   </l:layout>
 </j:jelly>
