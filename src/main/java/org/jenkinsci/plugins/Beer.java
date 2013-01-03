@@ -41,7 +41,9 @@ public class Beer implements UnprotectedRootAction {
             "It's 5 o'clock somewhere",
             "Launching Eclipse",
             "Firing up Emacs",
-            "Compiling OpenOffice from source"
+            "Compiling OpenOffice from source",
+            "Running Selenium tests",
+            "Starting the Android emulator"
     };
 
     private final String[] IMAGES = {
