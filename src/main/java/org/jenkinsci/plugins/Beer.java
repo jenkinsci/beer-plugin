@@ -43,7 +43,8 @@ public class Beer implements UnprotectedRootAction {
             "Firing up Emacs",
             "Compiling OpenOffice from source",
             "Running Selenium tests",
-            "Starting the Android emulator"
+            "Starting the Android emulator",
+            "Launching Amazon RDS"
     };
 
     private final String[] IMAGES = {
