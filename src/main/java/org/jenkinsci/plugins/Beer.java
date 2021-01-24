@@ -43,7 +43,8 @@ public class Beer implements UnprotectedRootAction {
             "Firing up Emacs",
             "Compiling OpenOffice from source",
             "Running Selenium tests",
-            "Starting the Android emulator"
+            "Starting the Android emulator",
+            "Launching Amazon RDS"
     };
 
     private final String[] IMAGES = {
@@ -52,6 +53,7 @@ public class Beer implements UnprotectedRootAction {
             "man.jpg",
             "starwars-beer.gif",
             "drinking-beer.gif",
-            "pouring-beer.gif"
+            "pouring-beer.gif",
+            "harpoon.gif"
     };
 }
