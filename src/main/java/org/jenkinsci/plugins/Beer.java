@@ -33,7 +33,7 @@ public class Beer implements UnprotectedRootAction {
     }
 
     private final String[] MESSAGES = {
-            "Having RVM problem",
+            "Having RVM problems",
             "Maven is downloading the internet",
             "Bundler is fetching the RubyGems index",
             "Jenkins is restarting",
