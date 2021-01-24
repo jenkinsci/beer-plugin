@@ -48,7 +48,7 @@ public class Beer implements UnprotectedRootAction {
 
     private final String[] IMAGES = {
             "beer.gif",
-            "bigbeer.jpg",
+            "bigbeer.png",
             "man.jpg",
             "starwars-beer.gif",
             "drinking-beer.gif",
