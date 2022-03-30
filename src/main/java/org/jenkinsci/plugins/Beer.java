@@ -2,6 +2,8 @@ package org.jenkinsci.plugins;
 
 import hudson.Extension;
 import hudson.model.UnprotectedRootAction;
+import hudson.util.VersionNumber;
+import jenkins.model.Jenkins;
 
 import java.util.Random;
 
@@ -21,6 +23,11 @@ public class Beer implements UnprotectedRootAction {
     }
     
     public String getIconFileName() {
+        // Custom symbols are only available in 2.341 or above
+        if (new VersionNumber(Jenkins.VERSION).isNewerThanOrEqualTo(new VersionNumber("2.341"))) {
+            return "symbol-beer plugin-beer";
+        }
+
         return "/plugin/beer/icon.png";
     }
 
