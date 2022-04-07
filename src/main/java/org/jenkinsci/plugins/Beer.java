@@ -1,5 +1,6 @@
 package org.jenkinsci.plugins;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import hudson.Extension;
 import hudson.model.UnprotectedRootAction;
 
@@ -10,12 +11,14 @@ import java.util.Random;
  */
 @Extension
 public class Beer implements UnprotectedRootAction {
-    private static final Random random = new Random();
+    private final Random random = new Random();
 
+    @SuppressFBWarnings(value="DMI_RANDOM_USED_ONLY_ONCE")
     public String getQuote() {
         return MESSAGES[random.nextInt(MESSAGES.length)];
     }
-    
+
+    @SuppressFBWarnings(value="DMI_RANDOM_USED_ONLY_ONCE")
     public String getImage() {
         return IMAGES[random.nextInt(IMAGES.length)];
     }
