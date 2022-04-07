@@ -2,8 +2,6 @@ package org.jenkinsci.plugins;
 
 import hudson.Extension;
 import hudson.model.UnprotectedRootAction;
-import hudson.util.VersionNumber;
-import jenkins.model.Jenkins;
 
 import java.util.Random;
 
