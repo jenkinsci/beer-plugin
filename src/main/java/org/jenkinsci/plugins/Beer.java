@@ -23,12 +23,7 @@ public class Beer implements UnprotectedRootAction {
     }
     
     public String getIconFileName() {
-        // Custom symbols are only available in 2.341 or above
-        if (new VersionNumber(Jenkins.VERSION).isNewerThanOrEqualTo(new VersionNumber("2.341"))) {
-            return "symbol-beer plugin-beer";
-        }
-
-        return "/plugin/beer/icon.png";
+        return "symbol-beer plugin-beer";
     }
 
     public String getDisplayName() {
