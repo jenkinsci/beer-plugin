@@ -10,7 +10,7 @@ import java.util.Random;
  */
 @Extension
 public class Beer implements UnprotectedRootAction {
-    private final Random random = new Random();
+    private static final Random random = new Random();
 
     public String getQuote() {
         return MESSAGES[random.nextInt(MESSAGES.length)];
