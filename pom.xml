@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.12</version>
+    <version>4.40</version>
   </parent>
 
   <artifactId>beer</artifactId>
@@ -15,7 +15,7 @@
     <revision>1.4</revision>
     <changelist>-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/beer-plugin</gitHubRepo>
-    <jenkins.version>2.235.5</jenkins.version>
+    <jenkins.version>2.341</jenkins.version>
   </properties>
 
   <repositories>
