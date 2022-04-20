@@ -4,16 +4,16 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>4.40</version>
+    <relativePath />
   </parent>
 
   <artifactId>beer</artifactId>
-  <version>${revision}${changelist}</version>
+  <version>${changelist}</version>
   <packaging>hpi</packaging>
   <url>https://github.com/jenkinsci/beer-plugin</url>
 
   <properties>
-    <revision>1.4</revision>
-    <changelist>-SNAPSHOT</changelist>
+    <changelist>999999-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/beer-plugin</gitHubRepo>
     <jenkins.version>2.341</jenkins.version>
   </properties>
