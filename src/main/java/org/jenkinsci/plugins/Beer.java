@@ -24,7 +24,7 @@ public class Beer implements UnprotectedRootAction {
     }
     
     public String getIconFileName() {
-        return "symbol-beer plugin-beer";
+        return "symbol-beer-outline plugin-ionicons-api";
     }
 
     public String getDisplayName() {
