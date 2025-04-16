@@ -10,7 +10,7 @@
   <artifactId>beer</artifactId>
   <version>${changelist}</version>
   <packaging>hpi</packaging>
-  <url>https://github.com/jenkinsci/beer-plugin</url>
+  <url>https://github.com/${gitHubRepo}</url>
 
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
